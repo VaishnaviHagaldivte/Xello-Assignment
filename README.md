@@ -29,5 +29,7 @@ Use NGRX for state management ++++
 
 
 In order to run this application use the following commands after cloning:
+
 cd Xello-Assignment/TooltipButtons
+
 ng serve -o
