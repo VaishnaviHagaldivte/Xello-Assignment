@@ -32,4 +32,6 @@ In order to run this application use the following commands after cloning:
 
 cd Xello-Assignment/TooltipButtons
 
+npm install --save-dev @angular-devkit/build-angular
+
 ng serve -o
