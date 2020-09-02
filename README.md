@@ -25,3 +25,9 @@ Add at least one accessibility feature +
 Design and style the app so that it is responsive + -> Completed
 
 Use NGRX for state management ++++
+
+
+
+In order to run this application use the following commands after cloning:
+cd Xello-Assignment/TooltipButtons
+ng serve -o
