@@ -1,7 +1,43 @@
-.btns {
-    display: flex;
-    justify-content: space-evenly;
-}
-.ng-tooltip-show {
+.tooltip-example {
+    text-align: center;
+    padding: 0 50px;
+    cursor: pointer;
+  }
+  .tooltip-example [app-tooltip] {
+    display: inline-block;
+    margin: 50px 20px;
+    width: auto;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .ng-tooltip {
+    position: absolute;
+    max-width: auto;
+    font-size: 14px;
+    text-align: center;
+    color: #f8f8f2;
+    padding: 3px 8px;
+    background: grey;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0;
+  }
+  .ng-tooltip:after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+  }
+  .ng-tooltip-top:after {
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-color: grey transparent transparent transparent;
+  }
+  .showtooltip {
     opacity: 1;
   }
+  

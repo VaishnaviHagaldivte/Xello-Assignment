@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavcomponentComponent } from './navcomponent/navcomponent.component';
 import { TooltipbuttonsComponent } from './tooltipbuttons/tooltipbuttons.component';
+import { BtntooltipDirective } from './btntooltip.directive';
+import { KnowmoreComponent } from './knowmore/knowmore.component';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavcomponentComponent,
-    TooltipbuttonsComponent
+    TooltipbuttonsComponent,
+    BtntooltipDirective,
+    KnowmoreComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, ElementRef, HostListener} from '@angular/core';
+import { StateService } from '../state.service';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'app-tooltipbuttons',
@@ -9,7 +11,6 @@ export class TooltipbuttonsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
-
 }
